@@ -1,0 +1,42 @@
+Requirements to Run the Application
+Python 3.x:
+
+Install Python from python.org.
+
+Install required libraries:
+
+pip install pandas sqlalchemy psycopg2
+PostgreSQL:
+
+Install PostgreSQL from postgresql.org.
+
+Create a database (e.g., ecommerce_db).
+
+Microsoft Power BI:
+
+Install Power BI Desktop from powerbi.microsoft.com.
+
+Development Tools:
+
+VS Code: Install from code.visualstudio.com.
+
+Git: Install from git-scm.com.
+
+Dataset:
+
+Place the e-commerce dataset (ecommerce_data.csv) in the data/ folder.
+
+Steps to Run the Application
+Extract and Clean Data:
+
+Run the Python script to load, clean, and save the dataset.
+
+Load Data into PostgreSQL:
+
+Use the provided SQL script to create the transactions table.
+
+Load the cleaned data into PostgreSQL.
+
+Visualize Data in Power BI:
+
+Connect Power BI to PostgreSQL and create dashboards.
